@@ -11,21 +11,21 @@ This repo represents only the frontend for the app. A seperate backend and DB wa
 
 ## file structure
 
--public (base files from Create React App)
--src:
-    -actions (redux actions)
-    -API (intended folder for backend API integration)
-    -components (frontend UI components, styles, assets and logic)
-        -assets (image files)
-        -basket (basket components)
-        -blog (blog components)
-        -carousel (carousel components)
-        -products (product components)
+- public (base files from Create React App)
+- src:
+    - actions (redux actions)
+    - API (intended folder for backend API integration)
+    - components (frontend UI components, styles, assets and logic)
+        - assets (image files)
+        - basket (basket components)
+        - blog (blog components)
+        - carousel (carousel components)
+        - products (product components)
         footer.jsx
         home-page.jsx
         main.jsx (actual container components for all other components)
         nav-bar.jsx
-    -reducers (redux reducers)
+    - reducers (redux reducers)
     app.js (root file for react router and redux)
     index.js (root file for entire react app)
 
